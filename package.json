@@ -13,6 +13,8 @@
     "react": "latest",
     "react-dom": "latest",
     "framer-motion": "latest",
-    "lucide-react": "latest"
+    "lucide-react": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
   }
 }
