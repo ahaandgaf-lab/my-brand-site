@@ -654,4 +654,17 @@ function LessonsSection() {
           <Reveal key={lesson.title}>
             <div className="bg-[#0a0a0b]">
               <a href={lesson.href} className="group block h-full p-6 transition-colors hover:bg-[#141416] sm:p-8">
-                <p className="text-[0.6rem] font-medium tracking-[0
+              
+<p className="text-[0.6rem] font-medium tracking-[0.1em]">
+                  {lesson.title}
+                </p>
+              </a>
+            </div>
+          </Reveal>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Page;
