@@ -662,7 +662,7 @@ function LessonsSection() {
             </div>
           </Reveal>
         ))}
-      </sectio>
+      </section>
     </div>
   );
 }
